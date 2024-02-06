@@ -1,0 +1,4 @@
+bulid:
+	docker build --force-rm $(options) -t tamatem-website:latest . 
+
+	
