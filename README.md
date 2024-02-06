@@ -12,22 +12,31 @@ the Repo consists of the following componenets :
 How to run this localy on your machine. 
 
 - run the gh command to clone this Repo
-cd 
+
+cd
+
 mkdir tamatem-webiste-amasoud
+
 cd  tamatem-webiste-amasoud
+
 gh repo clone Abdul-Aziz-Masoud/tamatem-webiste
 
 - run the make build to build the image : 
+
 make build
 
 - run the django server : 
+
 make compose-start
 
 - deploy the image to helm : 
+
 make deploy 
 
 - navigate to the browser and navigate to : 
+
 localhost:8000 
 
 you should get the desired the output 
+
 "Hello Tamatem!"
